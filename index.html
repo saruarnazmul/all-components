@@ -1,0 +1,366 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="bootstrap/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <title>Bootstrap components</title>
+  </head>
+  <body>
+<!--Alerts start-->
+    <h2 class="h2">Alert</h2>
+    <div class="alert alert-primary" role="alert">
+        A simple primary alert—check it out!
+    </div>
+    <h2 class="h2">link color</h2>
+    <div class="alert alert-info">
+      alert info! You can find more info! goto <a href="#">http://google.com</a>
+    </div>
+    <h2 class="h2">Additional content</h2>
+    <div class="alert alert-success" role="alert">
+  <h4 class="alert-heading">Well done!</h4>
+  <p>Aww yeah, you successfully read this important alert message. This example text is going to run a bit longer so that you can see how spacing within an alert works with this kind of content.</p>
+  </div>
+  <!--Alert dismissbles start-->
+
+  <!--Alert end-->
+  <div class="alert alert-danger alert-dismissible fade show">
+    <strong>Hey you!</strong> Don't click it!
+     <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+    <span aria-hidden="true">&times;</span>
+  </button>
+  </div>
+    <!--Alerts end-->
+
+
+     <!--Badge start-->
+    <h2> Example heading <span class="badge badge-primary">New</span></h2>
+    <h2 class="h2">Notifications</h2>
+    <button class="btn btn-primary">
+      Notifications!
+      <span class="badge badge-light">4</span>
+    </button>
+
+    <h2 class="h2">sr only class</h2>
+    <button class="btn btn-primary">
+      Notifications!
+      <span class="badge badge-primary">9</span>
+      <span class="sr-only">Unread meassge!</span>
+    </button>
+    <h2 class="h2">Contextual variations</h2>
+    <span class="badge badge-dark">Dark</span>
+    <hr>
+    <span class="badge badge-pill badge-success">Success</span>
+    <h4 class="h4">Badge link</h4>
+    <a href="#" class="badge badge-warning">Warning</a>
+    <!--badge end-->
+
+    <!--Breadcrumb start-->
+    <h3 class="h3">Breadcrumb</h3>
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="">Home</a></li>
+        <li class="breadcrumb-item"><a href="">About</a></li>
+        <li class="breadcrumb-item">Gallery</li>
+      </ol>
+    </nav>
+    <!--Breadcrumb end-->
+
+    <!--Button start-->
+    <button type="button" class="btn btn-primary">Primary</button>
+    <h3 class="h3">Button tags</h3>
+    <input type="button" class="btn btn-success" name="button" value="submit">
+    <h3 class="h3">Outline button</h3>
+    <button type="button" class="btn btn-outline-primary">outline button</button>
+    <button type="button" class="btn btn-primary btn-lg">Button large</button>
+    <button type="button" class="btn btn-primary btn-lg btn-block">Button large button block</button>
+    <button type="button" class="btn btn-primary btn-lg btn-block" disabled>Button large button block</button>
+    <h3 class="h3">Button toggle</h3>
+    <div class="btn-group btn-group-toggle" data-toggle="buttons">
+      <label class="btn btn-secondary active">
+      <input type="radio" name="options" id="option1" autocomplete="off" checked> Active
+      </label>
+      <label class="btn btn-secondary">
+      <input type="radio" name="options" id="option2" autocomplete="off"> Radio
+      </label>
+      <label class="btn btn-secondary">
+      <input type="radio" name="options" id="option3" autocomplete="off"> Radio
+      </label>
+    </div>
+    <h3 class="h3">Button tolbar</h3>
+    <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+      <div class="btn-group mr-2" role="group"  aria-label="first group">
+        <button type="button" class="btn btn-secondary">1</button>
+        <button type="button" class="btn btn-secondary">2</button>
+        <button type="button" class="btn btn-secondary">3</button>
+        <button type="button" class="btn btn-secondary">4</button>
+      </div>
+       <div class="btn-group mr-2" role="group" aria-label="Third group">
+        <button type="button" class="btn btn-secondary">5</button>
+        <button type="button" class="btn btn-secondary">6</button>
+        <button type="button" class="btn btn-secondary">7</button>
+      </div>
+      <div class="btn-group" role="group" aria-label="Second group">
+      <button type="button" class="btn btn-secondary">8</button>
+      <button type="button" class="btn btn-secondary">9</button>
+      <button type="button" class="btn btn-secondary">10</button>
+    </div>
+      <div class="btn-group" role="group" aria-label="fifth group">
+      <button type="button" class="btn btn-outline-success">Next</button>
+    </div>
+    </div>
+    <!--button end-->
+
+    <!--card start-->
+    <div class="card" style="width: 15%;">
+      <img src="images/imcover.jpg" class="card-img-top" alt="cool cover">
+      <div class="card-body">
+      <h5 class="card-title">Cool picture</h5>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+    </div>
+    <h5 class="h5">Titles, text, and links</h5>
+    <div class="card" style="width: 20%; border: 1px solid red;">
+      <div class="card-body">
+        <h5 class="card-title">Title and text</h5>
+        <h6 class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium quidem dignissimos, numquam! Laudantium corrupti omnis voluptates eveniet autem facere doloribus.</h6>
+        <a href="#">Google.com</a>
+        <a href="#">Another  link</a>
+      </div>
+    </div>
+    <!--card end-->
+    <!--Input-group start-->
+    <h4 class="h4">Input Bootstrap</h4>
+      <div class="input-group mb-3">
+      <div class="input-group-prepend">
+        <span class="input-group-text" id="basic-addon1">@</span>
+      </div>
+        <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+    </div>
+    <div class="input-group mb-3">
+    <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2">
+    <div class="input-group-append">
+      <span class="input-group-text" id="basic-addon2">@example.com</span>
+    </div>
+    </div>
+    <div class="input-group mb-3">
+    <div class="input-group-prepend">
+    <div class="input-group-text">
+      <input type="checkbox" aria-label="Checkbox for following text input">
+    </div>
+    </div>
+      <input type="text" class="form-control" aria-label="Text input with checkbox">
+    </div>
+    <hr>
+    <div class="input-group">
+    <div class="input-group-prepend">
+      <span class="input-group-text">First and last name</span>
+    </div>
+      <input type="text" aria-label="First name" class="form-control">
+      <input type="text" aria-label="Last name" class="form-control">
+    </div>
+    <div class="input-group mb-3">
+      <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="button-addon2">
+      <div class="input-group-append">
+        <button class="btn btn-outline-secondary" type="button" id="button-addon2">Button</button>
+      </div>
+    </div>
+    <div class="input-group mb-3">
+  <div class="input-group-prepend">
+    <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</button>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="#">Action</a>
+        <a class="dropdown-item" href="#">Another action</a>
+        <a class="dropdown-item" href="#">Something else here</a>
+        <div role="separator" class="dropdown-divider"></div>
+        <a class="dropdown-item" href="#">Separated link</a>
+      </div>
+    </div>
+    <input type="text" class="form-control" aria-label="Text input with dropdown button">
+    </div>
+    <h4 class="h4">file input</h4>
+    <div class="input-group mb-3">
+    <div class="input-group-prepend">
+      <span class="input-group-text" id="inputGroupFileAddon01">Upload</span>
+    </div>
+    <div class="custom-file">
+      <input type="file" class="custom-file-input" id="inputGroupFile01" aria-describedby="inputGroupFileAddon01">
+      <label class="custom-file-label" for="inputGroupFile01">Choose file</label>
+    </div>
+    </div>
+    <!--Input-group end-->
+
+    <!--Jumbotron start-->
+      <div class="jumbotron">
+        <h1 class="display-2">Bootstrap components</h1>
+        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis ad, culpa! Quod vel minus deleniti. Ad ducimus nesciunt odio necessitatibus.</p>
+        <hr class="my-4">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut quas animi minima quaerat recusandae itaque optio quibusdam, consectetur libero eligendi! Veniam veritatis maiores qui, vitae.</p>
+        <a href="#" type="button" class="btn btn-outline-dark btn-lg">Learn more</a>
+      </div>
+    <!--Jumbotron end-->
+
+    <!--forms start-->
+    <form>
+    <div class="form-group">
+      <label for="exampleInputEmail1">Email address</label>
+      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+      <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+    </div>
+    <div class="form-group">
+      <label for="exampleInputPassword1">Password</label>
+      <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+    </div>
+    <div class="form-group form-check">
+      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+      <label class="form-check-label" for="exampleCheck1">Check me out</label>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+    <!--forms end-->
+    <!--carosel start-->
+    <div class="container-fluid">
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="images/blog_boy.jpg" class="d-block w-100" alt="boy">
+        </div>
+        <div class="carousel-item">
+          <img src="images/blog_cup.jpg" class="d-block w-100" alt="cup">
+        </div>
+        <div class="carousel-item">
+          <img src="images/road.jpg" class="d-block w-100" alt="Two boy">
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+    </div>
+    <hr>
+    <!--carosel end-->
+    <!--List group item start-->
+    <ul class="list-group">
+      <li class="list-group-item active">list-group-item active</li>
+      <li class="list-group-item disabled">list-group-item disabled</li>
+      <a href="#" class="list-group-item list-group-item-action">
+        Anchor tag link add
+      </a>
+      <li class="list-group-item">list-group-item</li>
+      <li class="list-group-item">list-group-item</li>
+      <li class="list-group-item">list-group-item</li>
+    </ul>
+    <!--List group item end-->
+    <!--navstart-->
+    <ul class="nav justify-content-center">
+      <li class="nav-item">
+        <a class="nav-link active" href="#">Active</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+      </li>
+    </ul>
+    <!--navend-->
+    <!--navsbar start-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Dropdown
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
+    <!--navs end-->
+    <!--page navigation-->
+    <nav aria-label="Page navigation example">
+      <ul class="pagination">
+        <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+        <li class="page-item"><a class="page-link" href="#">1</a></li>
+        <li class="page-item"><a class="page-link" href="#">2</a></li>
+        <li class="page-item"><a class="page-link" href="#">3</a></li>
+        <li class="page-item"><a class="page-link" href="#">Next</a></li>
+      </ul>
+    </nav>
+    <!--page navigation end-->
+    <!--Progress bar start-->
+    <div class="progress">
+      <div class="progress-bar bg-success" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+    </div>
+    <br>
+    <!--Progress bar end-->
+    <!--Spinner start-->
+    <button class="btn btn-primary" type="button" disabled>
+      <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+      <span class="sr-only">Loading...</span>
+    </button>
+    <button class="btn btn-primary" type="button" disabled>
+      <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+      Loading...
+    </button>
+    <!--Spinner end-->
+    <h3 class="h3">Boolean attribute list</h3>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-6">
+            autofocus,autoplay, checked, compact, contenteditable, controls, default, defer, disabled, formNoValidate, frameborder, hidden, ismap, loop, muted, multiple, nowrap,required, reversed, open, scoped, scrolling, seamless, selected.
+        </div>
+      </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
